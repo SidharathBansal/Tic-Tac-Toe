@@ -24,6 +24,7 @@ class Login extends React.Component {
                 <div className="screen">
                     <form>
                         <div className="form-group">
+            <h1>Login</h1>
                             <label>Name Player 1</label>
                             <input 
                                 type="name" 
