@@ -3,7 +3,7 @@ import React from 'react';
 class Endgame extends React.Component {
     state = { 
         tied: "You guys tied",
-        playerWin: "You win " + this.props.winner + " |]",
+        playerWin: "You win " + this.props.winner + " !!",
      };
      handleClick = () =>{
          this.props.endgame(false);
