@@ -20,7 +20,7 @@ class Game extends React.Component {
         const { userName1, userName2, endgame } = this.props;
         return ( 
             <div className="game">
-                <p>Its {player1 ? userName1 : userName2}</p>
+                <p>Its {player1 ? userName1 : userName2} Turn</p>
                 <Board
                   turn = {this.handleTurn}
                   player1={player1}
